@@ -1,0 +1,36 @@
+{
+  "blogs": [
+    {
+      "UserId": 2,
+      "author": "adejare-john",
+      "title": "adejare",
+      "body": "sjflksfklskfksf",
+      "id": 3
+    },
+    {
+      "UserId": 2,
+      "author": "adejare-john",
+      "title": "josh",
+      "body": "sjfkjfksj",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "username": "adejare-john",
+      "email": "adejarejohn2004@gmail.com",
+      "password": "brainiac12",
+      "whatsapp": "2347062004102",
+      "linkedin": "https://linkedin.com",
+      "id": 2
+    },
+    {
+      "username": "joshua",
+      "email": "joshuauser@gmail.com",
+      "password": "brainiac12",
+      "whatsapp": "5796201",
+      "linkedin": "https://linkedin.com",
+      "id": 4
+    }
+  ]
+}

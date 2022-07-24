@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --first: #3da9fc;
+    --second: #094067;
+    --pink: #ef4565;
+    --gray: #90b4ce;
+    --darker-white: #fffffe;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto-Regular.ttf);
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto';
+    min-height: 100vh;
+}
+
+.text-first{
+    color: var(--first);
+}
+.bg-first{
+    background-color: var(--first);
+}
+.text-second{
+    color: var(--second);
+}
+.bg-second{
+    background-color: var(--second);
+}
+.text-pink{
+    color: var(--pink);
+}
+.bg-pink{
+    background-color: var(--pink);
+}
+.text-gray{
+    color: var(--gray);
+}
+.bg-gray{
+    background-color: var(--gray);
+}
+.text-darker-white{
+    color: var(--darker-white);
+}
+.bg-darker-white{
+    background-color: var(--darker-white);
+}
+.error{
+    font-size: .8rem;
+    display: none;
+}
+.border-pink{
+    border-color: var(--pink) !important;
+}
+.border-first{
+    border-color: var(--first) !important;
+}
+.border-second{
+    border-color: var(--second) !important;
+}
+.border-gray{
+    border-color: var(--gray) !important;
+}
+.border-darker-white{
+    border-color: var(--darker-white) !important;
+}
+.pointer{
+    cursor: pointer;
+}   
+/* main styles */
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form, .signup-form{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+input, textarea{
+    border-radius: 0 !important;
+}
+.submit-btn{
+    width: 100%;
+}
+.submit-btn:active{
+    transform: scale(0.98);
+}
+.logo-img{
+    width: 120px;
+}
+.profile-img{
+    width: 45px;
+    height: 45px;
+    background-color: var(--first);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+.user-img{
+    max-width: fit-content; 
+    padding: 2.5rem 3rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.user-img i{
+    font-size: 8rem;
+}
+.user-details-container{
+    max-width: 300px;
+    text-align: center;
+}
+.post-form{
+    max-width: 50rem;
+}
+
+.post-form textarea{
+    min-height: 20rem;
+}
+.post-form button{
+    border-radius: 0 !important;
+}
+.blog-details-container .blog{
+  max-width: 60rem;
+  margin-left: 0;  
+}
+.blog{
+    min-height: 12.4rem !important;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .col-md-4{
+        flex-basis: 32.5%;
+    }
+}
+/* javascript */
+.show-error{
+    display: block;
+}
